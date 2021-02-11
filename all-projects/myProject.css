@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #d8d8dd;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+  background-image: url("https://wallpaperaccess.com/full/1092758.jpg");
+}
+.quote {
+  color: rgb(107, 199, 199);
+}
+.menu {
+  position: absolute;
+  top: 14%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  margin-left: 10px;
+}
+.menu a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 4px;
+  padding: 5px;
+  position: relative;
+  background-color: rgba(252, 249, 249, 0.996);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.menu a:hover, .btn:hover{
+  border-bottom: 2px solid rgb(247, 184, 67);;
+}
+
+h1 {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.main-box {
+  /* border: 2px rgb(243, 239, 239) solid; */
+  height: 30rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 40px;
+  margin: 60px 20px;
+  padding: 10px;
+}
+.sub-box {
+  margin-top: 5rem;
+  height: 75%;
+  background-color: #28456a8c;
+}
+.box {
+  /* border: 2px rgba(92, 94, 92, 0.4) solid; */
+  margin-top: 5rem;
+  height: 75%;
+  width: 33%;
+  /* text-align: left; */
+  align-items: center;
+  justify-content: center;
+  color: #dedbdbc2;
+  font-family: "Roboto", sans-serif;
+}
+#box-1 {
+  display: inline-block;
+  float: left;
+}
+#box-2 {
+  display: inline-block;
+  float: left;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+#box-3 {
+  display: inline-block;
+  float: right;
+}
+.btn {
+  border-radius: 9px;
+  height: 30px;
+  width: 7rem;
+  background-color: rgb(213, 210, 210);
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
